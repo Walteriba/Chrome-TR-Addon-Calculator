@@ -36,6 +36,8 @@ Esta extensión de Chrome de **uso personal** permite extraer y agregar datos a 
 
 4. Los datos agregados se mostrarán en una tabla en el popup.
 
-![](https://media.giphy.com/media/H7Bl9cBu25wvpblj6j/giphy.gif)
+<p align="center">
+    <img src="https://media.giphy.com/media/H7Bl9cBu25wvpblj6j/giphy.gif" alt="GIF">
+</p>
 
 
