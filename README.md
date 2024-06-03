@@ -36,15 +36,6 @@ Esta extensión de Chrome de **uso personal** permite extraer y agregar datos a 
 
 4. Los datos agregados se mostrarán en una tabla en el popup.
 
-## Ejemplo de Tabla Resumen
+![](https://media.giphy.com/media/H7Bl9cBu25wvpblj6j/giphy.gif)
 
-| Descripción  | Cantidad | Total  |
-|--------------|----------|--------|
-| Virtual      | 2        | 32,500.00 |
-| Sube         | 1        | 1,000.00 |
-| Facturas     | 2        | 35,000.00 |
-| Recaudación  | -        | 5,985.00  |
-| Cobros       | 3        | 38,485.00 |
-| Retiros      | 1        | 1,000.00  |
-| Caja         | -        | 36,560.75 |
-| Adicional    | -        | 4,450.00  |
+
