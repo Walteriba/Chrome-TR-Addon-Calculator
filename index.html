@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adicionales</title>
-    <link rel="stylesheet" href="/resources/styles.css">
-</head>
-<body>
-    <h1>HOLA MUNDO</h1>
-    <script src="/resources/script.js"></script>
-</body>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Costo plataforma diario: <span id="costo-plataforma"></span></p>
+      <p>Costo herramientas mensual: <span id="costo-herramientas"></span></p>
+    </div>
+    <button id="extract-btn">Extraer Datos</button>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Descripción</th>
+          <th>Cantidad</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="/resources/popup.js"></script>
+  </body>
 </html>

@@ -1,17 +1,25 @@
 {
-"manifest_version": 3,
-"name": "Adicionales | TR",
-"description": "Una calculadora para los adicionales al cerrar sesión",
-"version": "0.17",
-"icons": {
-"128": "128.png"
-},
-"permissions": [
-"unlimitedStorage",
-"notifications"
-],
-"action": {
-    "default_title": "Click para abrir",
+  "manifest_version": 3,
+  "name": "Adicionales",
+  "description": "Calculadora de adicionales",
+  "version": "0.17",
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications",
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Abrir",
     "default_popup": "index.html"
-}
+  }
 }
