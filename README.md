@@ -1,4 +1,4 @@
-# Extensión de Chrome: <tr> Adicionales </tr>
+# Extensión de Chrome: `<tr> Adicionales </tr>`
 
 Esta extensión de Chrome de **uso personal** permite extraer y agregar datos a una tabla desde una plataforma de cobros. Clasifica los datos según el tipo de operación y los muestra en una tabla resumen en el popup de la extensión.
 
