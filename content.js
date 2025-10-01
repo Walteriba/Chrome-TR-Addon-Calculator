@@ -18,7 +18,6 @@ function extractAndAggregateData() {
   rows.forEach((row) => {
     let tipoOperacion = row.children[4]?.innerText.trim();
     const producto = row.children[5]?.innerText.trim();
-    const referenciaCliente = row.children[6]?.innerText.trim();
     const importeText = row.children[9]?.innerText
       .trim()
       .replace(/[^0-9,-]+/g, "")
@@ -30,11 +29,6 @@ function extractAndAggregateData() {
     // Reasignar Uala, a factura
     if (producto === "UALA") {
       tipoOperacion = "Pago Servicio";
-    }
-
-    // Para Martín
-    if (referenciaCliente === "Almacén Walvan") {
-      tipoOperacion = "";
     }
 
     switch (tipoOperacion) {
@@ -51,7 +45,7 @@ function extractAndAggregateData() {
       case "Pago Servicio":
         data.facturas.count++;
         data.facturas.total += importe;
-        data.adicional += 100;
+        data.adicional += 500;
         break;
       case "Recaudacion":
         data.recaudacion.total += importe;
@@ -96,5 +90,3 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
   }
 });
-
-

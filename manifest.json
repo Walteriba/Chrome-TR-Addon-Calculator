@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Adicionales",
   "description": "Calculadora de adicionales",
-  "version": "0.17",
+  "version": "0.18",
   "icons": {
     "128": "128.png"
   },
